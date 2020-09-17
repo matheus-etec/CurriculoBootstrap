@@ -1,0 +1,126 @@
+* {
+    font-family: "Montserra", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder !important;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.primary-section {
+    background-color: #fff;
+    color: #333;
+}
+
+.secondary-section {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.primary-section em,
+.secondary-section em {
+    color: #003c6e;
+}
+
+.highlight-section {
+    background-color: #003c6e;
+    color: #fff;
+}
+
+.highlight-section a {
+    color: #ffab00;
+}
+
+.highlight-section a:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #032744;
+    color: #fff;
+}
+
+footer h3 {
+    font-size: 38px;
+}
+
+footer img {
+    border-radius: 7px;
+}
+
+em {
+    color: #ffab00;
+    font-style: normal;
+    font-weight: bold;
+}
+
+header {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(../img/bg-site.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+header img {
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+header h2 {
+    font-size: 36px;
+}
+
+.ico-80 {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+#habilidades .progress{
+    background-color: #dfdfdfdf;
+    margin-bottom: 20px;
+}
+
+#habilidades .progress-bar {
+    background-color: #003c6e;
+    border-radius: 4px;
+}
+
+#contato form input,
+#contato form textarea {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+#contato form input::placeholder,
+#contato form textarea::placeholder {
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 58px;
+    }
+    header h2 {
+        font-size: 26px;
+    }
+    header {
+        text-align: center;
+    }
+    header img {
+        width: 320px !important;
+    }
+    footer img{
+        max-width: 100px !important;
+    }
+}

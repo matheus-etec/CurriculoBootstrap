@@ -1,0 +1,4 @@
+{
+    "extensions.webWorker": true,
+    "extensions.closeExtensionDetailsOnViewChange": true
+}
